@@ -1,4 +1,4 @@
-module github.com/eaneto/custom-notify
+module github.com/eaneto/notify
 
 go 1.15
 
