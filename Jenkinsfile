@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: "main", url:"https://github.com/eaneto/notify",
+                git branch: "main", url:"https://github.com/eaneto/notify"
             }
         }
         stage('Release'){
