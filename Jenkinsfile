@@ -17,7 +17,7 @@ pipeline {
             steps {
                 sh "echo ${params.VERSION}"
                 sh "git tag ${params.VERSION}"
-                sh "git push https://${GIT_USERNAME}:${GIT_PASSWORD}@github.com/eaneto/notify --tags"
+                sh "git push https://${params.GIT_USERNAME}:${params.GIT_PASSWORD}@github.com/eaneto/notify --tags"
             }
         }
     }
